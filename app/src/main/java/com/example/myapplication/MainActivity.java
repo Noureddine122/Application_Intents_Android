@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             String s = data.getStringExtra(MainActivity2.EXTRA_RESULT);
             result.setText("Merci pour votre choix, C'étais :"+s);
         } else {
-            result.setText("Action annulée");
+            result.setText("Action annulée, essayer une autre fois");
         }
     }
 }
